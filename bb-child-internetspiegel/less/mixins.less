@@ -1,0 +1,136 @@
+
+///
+// internetspiegel - mixins.less
+// ----------------------------------------------------------------------------------
+// mixins, yo
+// ----------------------------------------------------------------------------------
+// @package bb-child-internetspiegel
+// @author  Paul van Buuren
+// @license GPL-2.0+
+// @version 1.0.19
+// @desc.   Hover-kleuren voor CTA aangescherpt.
+// @link    https://github.com/paulvanbuuren/ICTU---internetspiegel
+///
+
+
+
+//========================================================================================================
+
+.social_icon_hover_color(@src, @fill-new, @achtergrondkleur: @internetspiegelgroen ) {
+
+  @data-uri:          data-uri('image/svg+xml;charset=UTF-8', "@{src}");
+  @replace-default:   escape(' fill="#FFFFFF"');
+  @replace-new: 		  escape(' fill="@{fill-new}"');
+  @replacesrc1: 		  replace("@{data-uri}", @replace-default, @replace-new, "g");
+
+//  border: 1px solid "@{fill-new}";
+  border: 1px solid @fill-new;
+  background-color: @achtergrondkleur;
+  background-image: e(@replacesrc1);
+}
+
+//=========================================================================================================
+
+.visuallyhidden() {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+}
+
+//=========================================================================================================
+
+.visuallyvisual() {
+  border: inherit;
+  clip: auto;
+  height: auto;
+  margin: auto;
+  padding: inherit;
+  position: inherit;
+  width: auto;
+}
+
+//=========================================================================================================
+
+.printstyles() {
+  
+  header.fl-page-header-fixed,
+  .fl-page-footer-wrap,
+  #reply-title,
+  .spread section,
+  #fl-comment-form,
+  .fl-post-meta,
+  .social-media {
+    display: none !important; 
+  }  
+
+}
+
+//=========================================================================================================
+
+.calltoactionstyle() {
+
+  .calltoaction{
+    display: block;
+    border: 1px solid @txt;
+    overflow: hidden;
+    clear: both;
+    padding: 1em;
+    margin-bottom: 1em;
+    
+    .fl-cta-text,
+    .fl-cta-button {
+      float: left;
+//      border: 1px solid red;
+    }      
+    .fl-cta-button {
+      max-width: 30%;
+      float: right;
+      padding-top: 1em;
+    }
+    .fl-cta-text {
+      max-width: 70%;
+      h2, h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .fl-button {
+      padding: .5em 2em; 
+      background: @internetspiegelgroen !important;      
+      border: 5px solid @internetspiegelgroen !important;
+      float: right;
+      border-radius: 4px;
+      text-decoration: none;
+
+      .fl-button-text, & {
+        color: @wit;
+      }
+      &:visited{
+        background: @internetspiegelgroen !important;      
+        border-color: @internetspiegelgroen !important;
+      }
+      &:hover,
+      &:focus {
+        background-color: @wit !important;     
+        background-image: url('images/icon-arrow-right-green.svg') !important;
+        background-repeat: no-repeat !important;
+        background-position: right center !important;
+        border-color: @internetspiegelgroen !important;
+        .fl-button-text, & {
+          color: @txt;
+        }
+      }
+    }
+  }
+}
+
+//=========================================================================================================
+
+
+

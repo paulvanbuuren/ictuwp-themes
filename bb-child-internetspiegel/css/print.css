@@ -1,0 +1,11 @@
+/*!
+Theme Name:           Internetspiegel
+Theme URI:            https://www.internetspiegel.nl
+Version:              1.0.6
+Version description:  1.0.6 - Print styles
+Description:          Child theme voor internetspiegel.nl
+Author:               ICTU / Paul van Buuren
+Author URI:           https://wbvb.nl/themes/internetspiegel/
+template:             bb-theme
+*/#fl-comment-form,#reply-title,.fl-page-footer-wrap,.fl-post-meta,.social-media,.spread section,header.fl-page-header-fixed{display:none!important}
+/*# sourceMappingURL=print.css.map */

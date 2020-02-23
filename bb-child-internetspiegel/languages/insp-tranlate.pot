@@ -1,0 +1,224 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Internetspiegel\n"
+"POT-Creation-Date: 2017-06-19 18:57+0200\n"
+"PO-Revision-Date: 2017-06-19 11:18+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:38
+#, php-format
+msgctxt "Comments list title."
+msgid "1 Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:44
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:71
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:72
+msgctxt "Respond form title."
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:73
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:74
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:79
+msgctxt "Comment form label: comment content."
+msgid "Comment"
+msgstr ""
+
+#: comments.php:83
+#, php-format
+msgctxt "Please, keep the HTML tags."
+msgid "You must be <a%s>logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:88
+#, php-format
+msgid "Logged in as %s."
+msgstr ""
+
+#: comments.php:90
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:90
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:94
+msgctxt "Comment form label: comment author name."
+msgid "Name"
+msgstr ""
+
+#: comments.php:94 comments.php:97
+msgid " (required)"
+msgstr ""
+
+#: comments.php:97
+msgctxt "Comment form label: comment author email."
+msgid "Email (will not be published)"
+msgstr ""
+
+#: comments.php:100
+msgctxt "Comment form label: comment author website."
+msgid "Website"
+msgstr ""
+
+#: content-single.php:30
+msgctxt "Edit post link text."
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:63
+msgctxt "Text before page links on paginated post."
+msgid "Pages:"
+msgstr ""
+
+#: functions.php:91
+msgctxt "share buttons"
+msgid "E-mail"
+msgstr ""
+
+#: functions.php:92
+msgctxt "share buttons"
+msgid "Deel dit via e-mail"
+msgstr ""
+
+#: functions.php:93
+msgctxt "share buttons"
+msgid "Bekijk deze pagina eens"
+msgstr ""
+
+#: functions.php:116
+msgctxt "share buttons"
+msgid "Deel op Twitter"
+msgstr ""
+
+#: functions.php:117
+msgctxt "share buttons"
+msgid "Deel op LinkedIn"
+msgstr ""
+
+#: functions.php:143 yarpp-template-internetspiegel.php:23
+msgctxt "gerelateerde berichten"
+msgid "Zie ook"
+msgstr ""
+
+#: functions.php:156
+msgctxt "gerelateerde berichten"
+msgid "Geen gerelateerde berichten gevonden"
+msgstr ""
+
+#: functions.php:220
+msgctxt "CTA knop"
+msgid "Selecteer of upload een PDF"
+msgstr ""
+
+#: functions.php:222
+msgctxt "CTA knop"
+msgid "Link naar dit bestand"
+msgstr ""
+
+#: functions.php:265
+msgctxt "CTA errors"
+msgid "Voer een titel in"
+msgstr ""
+
+#: functions.php:271
+msgctxt "CTA errors"
+msgid "Voer tekst in"
+msgstr ""
+
+#: functions.php:277
+msgctxt "CTA errors"
+msgid "Selecteer een bestand of voer een URL in"
+msgstr ""
+
+#: functions.php:283
+msgctxt "CTA errors"
+msgid "Voer een tekst in voor de CTA-knop"
+msgstr ""
+
+#: functions.php:299 functions.php:416
+msgctxt "CTA knop"
+msgid "Gegevens voor je call-to-action button"
+msgstr ""
+
+#: functions.php:303
+msgctxt "CTA knop"
+msgid "Titel"
+msgstr ""
+
+#: functions.php:307
+msgctxt "CTA knop"
+msgid "Tekst"
+msgstr ""
+
+#: functions.php:311
+msgctxt "CTA knop"
+msgid "Link voor de CTA"
+msgstr ""
+
+#: functions.php:316
+msgctxt "CTA knop"
+msgid "Tekst voor de CTA-link"
+msgstr ""
+
+#: functions.php:319
+msgctxt "CTA knop"
+msgid "Voeg CTA in"
+msgstr ""
+
+#: functions.php:418
+msgctxt "CTA knop"
+msgid "Voeg Call To Action toe"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Internetspiegel"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.internetspiegel.nl"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "1.0.14 - Translation bugs."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ICTU / Paul van Buuren"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wbvb.nl/themes/internetspiegel/"
+msgstr ""

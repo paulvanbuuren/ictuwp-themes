@@ -1,6 +1,6 @@
 {
   "name": "paulvanbuuren/ictuwp-themes",
-  "type": "ictuwp-basethemes",
+  "type": "wordpress-theme",
   "license": "GPL-3.0",
   "description": "Must-use plugins for ICTU WP-install",
   "homepage": "https://www.gebruikercentraal.nl",

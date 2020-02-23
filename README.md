@@ -1,2 +1,2 @@
 # ictuwp-theme-genesis
-Tijdelijke methode om Genesis theme in ICTU-WP package te houden
+Tijdelijke methode om de noodzakelijke themes (Genesis en Beaver Builder) in ICTU-WP package te houden
